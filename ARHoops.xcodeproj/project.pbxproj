@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF7D4F1E252A2F1CA17D2CFF /* Pods_ARHoops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4663E0B35F6367609241AA /* Pods_ARHoops.framework */; };
 		FEC09D672B87AA0500347C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D662B87AA0500347C9F /* AppDelegate.swift */; };
 		FEC09D692B87AA0500347C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D682B87AA0500347C9F /* SceneDelegate.swift */; };
 		FEC09D6B2B87AA0500347C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D6A2B87AA0500347C9F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 		FEC09D7E2B87AA0600347C9F /* ARHoopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D7D2B87AA0600347C9F /* ARHoopsTests.swift */; };
 		FEC09D882B87AA0600347C9F /* ARHoopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D872B87AA0600347C9F /* ARHoopsUITests.swift */; };
 		FEC09D8A2B87AA0600347C9F /* ARHoopsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC09D892B87AA0600347C9F /* ARHoopsUITestsLaunchTests.swift */; };
+		FEC09D992B87B87B00347C9F /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC09D982B87B87B00347C9F /* Basketball.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DDD2442E688201E218B61DE /* Pods-ARHoops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARHoops.debug.xcconfig"; path = "Target Support Files/Pods-ARHoops/Pods-ARHoops.debug.xcconfig"; sourceTree = "<group>"; };
+		6512909D2CBF04F5782A228A /* Pods-ARHoops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARHoops.release.xcconfig"; path = "Target Support Files/Pods-ARHoops/Pods-ARHoops.release.xcconfig"; sourceTree = "<group>"; };
+		CD4663E0B35F6367609241AA /* Pods_ARHoops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARHoops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC09D632B87AA0500347C9F /* ARHoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARHoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC09D662B87AA0500347C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC09D682B87AA0500347C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		FEC09D832B87AA0600347C9F /* ARHoopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARHoopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC09D872B87AA0600347C9F /* ARHoopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHoopsUITests.swift; sourceTree = "<group>"; };
 		FEC09D892B87AA0600347C9F /* ARHoopsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHoopsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEC09D982B87B87B00347C9F /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF7D4F1E252A2F1CA17D2CFF /* Pods_ARHoops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12B1F5415FC802787C83609F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD4663E0B35F6367609241AA /* Pods_ARHoops.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7D2938E00161F571DE41269 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD2442E688201E218B61DE /* Pods-ARHoops.debug.xcconfig */,
+				6512909D2CBF04F5782A228A /* Pods-ARHoops.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FEC09D5A2B87AA0500347C9F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,8 @@
 				FEC09D7C2B87AA0600347C9F /* ARHoopsTests */,
 				FEC09D862B87AA0600347C9F /* ARHoopsUITests */,
 				FEC09D642B87AA0500347C9F /* Products */,
+				E7D2938E00161F571DE41269 /* Pods */,
+				12B1F5415FC802787C83609F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +132,7 @@
 				FEC09D6F2B87AA0600347C9F /* Assets.xcassets */,
 				FEC09D712B87AA0600347C9F /* LaunchScreen.storyboard */,
 				FEC09D742B87AA0600347C9F /* Info.plist */,
+				FEC09D982B87B87B00347C9F /* Basketball.scnassets */,
 			);
 			path = ARHoops;
 			sourceTree = "<group>";
@@ -134,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEC09D8D2B87AA0600347C9F /* Build configuration list for PBXNativeTarget "ARHoops" */;
 			buildPhases = (
+				ABCCFDF87C8EC4B20F9CEA1F /* [CP] Check Pods Manifest.lock */,
 				FEC09D5F2B87AA0500347C9F /* Sources */,
 				FEC09D602B87AA0500347C9F /* Frameworks */,
 				FEC09D612B87AA0500347C9F /* Resources */,
+				A4341BBDB091E21BB1A84188 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC09D992B87B87B00347C9F /* Basketball.scnassets in Resources */,
 				FEC09D732B87AA0600347C9F /* LaunchScreen.storyboard in Resources */,
 				FEC09D702B87AA0600347C9F /* Assets.xcassets in Resources */,
 				FEC09D6E2B87AA0500347C9F /* Main.storyboard in Resources */,
@@ -252,6 +282,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4341BBDB091E21BB1A84188 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARHoops/Pods-ARHoops-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARHoops/Pods-ARHoops-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARHoops/Pods-ARHoops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCCFDF87C8EC4B20F9CEA1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARHoops-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEC09D5F2B87AA0500347C9F /* Sources */ = {
@@ -353,7 +425,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +488,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +509,7 @@
 		};
 		FEC09D8E2B87AA0600347C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDD2442E688201E218B61DE /* Pods-ARHoops.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +538,7 @@
 		};
 		FEC09D8F2B87AA0600347C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6512909D2CBF04F5782A228A /* Pods-ARHoops.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
